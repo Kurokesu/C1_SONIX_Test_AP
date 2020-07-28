@@ -1,4 +1,5 @@
-Set Sonix chipset based USB camera extension unit parameters (like h.264 compression rate, measurement mode, GPIO, ...)
+Sonix chipset based [Kurokesu C1 family USB camera](https://www.kurokesu.com/shop/cameras) extension unit parameter control toolset (like h.264 compression rate, measurement mode, GPIO, ...)
+
 
 ![C1 PRO](Kurokesu_C1_PRO.jpg)
 
