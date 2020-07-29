@@ -154,3 +154,37 @@ SONiX XU supported options:
 ./SONiX_UVC_TestAP /dev/video1 --xuget-qp --xuset-qp 31 --xuget-br --xuset-br 6882
 
 ```
+### Get and set bitrate
+```
+./SONiX_UVC_TestAP --xuget-br /dev/video1
+./SONiX_UVC_TestAP --xuset-br 1000 /dev/video1
+./SONiX_UVC_TestAP --xuset-br 1000000 /dev/video1
+./SONiX_UVC_TestAP --xuset-br 10000000 /dev/video1
+./SONiX_UVC_TestAP --xuset-gop 100 /dev/video1
+```
+
+### Set framerate
+```
+./SONiX_UVC_TestAP --fr 30 /dev/video1
+./SONiX_UVC_TestAP --msfr 30 /dev/video1
+```
+
+### Other settings
+```
+./SONiX_UVC_TestAP --xuset-gop 5 /dev/video1
+./SONiX_UVC_TestAP --xuset-cvm 1 /dev/video1
+
+./SONiX_UVC_TestAP --xuset-mir 1 /dev/video1
+./SONiX_UVC_TestAP --xuset-flip 1 /dev/video1
+./SONiX_UVC_TestAP --bri-get /dev/video1
+./SONiX_UVC_TestAP --xuget-clr /dev/video1
+
+./SONiX_UVC_TestAP --xuset-sei /dev/video1
+./SONiX_UVC_TestAP --xuset-if 5 /dev/video1
+    
+     
+./SONiX_UVC_TestAP --xuget-qp /dev/video1
+./SONiX_UVC_TestAP --xuget-gop /dev/video1
+
+./SONiX_UVC_TestAP --xuget-gop /dev/video1
+```
